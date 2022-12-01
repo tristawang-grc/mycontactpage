@@ -177,12 +177,14 @@ h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 
 	font-family: garamond-premier-pro, sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	font-style: normal;
-	font-size: 1.8em;
+	font-size: 1.9em;
 	margin: 80px auto 60px auto;
 	color: rgb(0, 0, 0);
 	text-align: center;
+	letter-spacing: 1.5px;
+	text-decoration:#ed5959 underline;
 }
 
 h2 { /*not in use currently*/
