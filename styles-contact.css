@@ -144,7 +144,7 @@ table {
 
 html,
 body {
-	height: 110%;
+	height: 110%; /*added this so that you can see a bit of image underneath the center element*/
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -159,9 +159,9 @@ body {
 
 .center {
 	width: 60%; /* for responsiveness*/
-	min-width: 400px; /*for responsiveness*/
-	padding: 2.5%;
-	margin: 100px auto 100px auto;
+	min-width: 500px; /*for responsiveness*/
+	padding: 2%;
+	margin: 100px auto;
 	background: rgb(255, 242, 227);
 	text-align: center;
 }
@@ -208,6 +208,7 @@ p {
 	font-size: 1.2em;
 	line-height: 1.6;
 	color: rgb(0, 0, 0);
+	margin-bottom: 40px;
 }
 
 nav {
@@ -217,10 +218,7 @@ nav {
 	font-size: 1.4em;
 	width: 80%; /*for responsiveness*/
 	margin: 1em auto; /*This centers the entire nav element inside the center div*/
-	/*border: solid rgb(0, 0, 0);*/
-	/*border-width: 3px 0; /*This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border*/
 	text-align: center;
-	/*margin-top: 2em; /*This adds a bit of space above the nav element*/
 	margin-bottom: 60px;
 }
 
